@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: transparent;
+    background-image: url("https://static8.depositphotos.com/1106647/888/v/600/depositphotos_8882116-stock-illustration-bird-and-butterflies.jpg");
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.title-box {
+    background-color: white;
+        background-image: url("https://static8.depositphotos.com/1106647/888/v/600/depositphotos_8882116-stock-illustration-bird-and-butterflies.jpg");
+    
+    position: absolute;
+    z-index: 20;
+    padding: 9px;
+    top: 20px;
+    box-shadow:#804040;
+     font-size: 2.85rem;
+	    text-align: center;
+      height:50vh;
+      line-height: 40vh;
+	    color: #ffffff;
+	    background: transparent;
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 800;
+      text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #efa032, 
+                  15px 15px 0px #46b59b, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #052939, 
+                  30px 30px 0px #c11a2b, 
+                  35px 35px 0px #c11a2b, 
+                  40px 40px 0px #c11a2b, 
+                  45px 45px 0px #c11a2b;
+}
+
+header h1{
+    font-size: 90px;
+    text-align: center;
+}

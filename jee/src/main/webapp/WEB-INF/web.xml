@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.4">
+  <display-name>jee</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+             <welcome-file>Upload.jsp</welcome-file>
+               <welcome-file>Message.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>Serv</display-name>
+    <servlet-name>Serv</servlet-name>
+    <servlet-class>Serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv</servlet-name>
+    <url-pattern>/Serv</url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <description></description>
+    <servlet-name>Anonce</servlet-name>
+    <servlet-class>net.codejava.upload.anonce</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Postulation</servlet-name>
+    <url-pattern>/uploadServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <description></description>
+    <display-name>loginServlet</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>login.sumit.registration.LoginRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginRegister</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>ContactServlet</display-name>
+    <servlet-name>ContactServlet</servlet-name>
+    <servlet-class>contact.ContactServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contact</servlet-name>
+    <url-pattern>/ContactServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
